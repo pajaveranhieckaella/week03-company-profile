@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Nexora Innovations - Digital Transformation, Enterprise Engineering, and Modern Cloud Solutions.">
-    <title>@yield('title', 'Nexora Innovations | Digital Engineering & Solutions Studio')</title>
+    <meta name="description" content="TerraNova Technologies - Digital Transformation, Enterprise Engineering, and Modern Cloud Solutions.">
+    <title>@yield('title', 'TerraNova Technologies | Digital Engineering & Solutions Studio')</title>
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">

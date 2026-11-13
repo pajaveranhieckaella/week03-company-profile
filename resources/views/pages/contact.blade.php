@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Contact Us | Nexora Innovations - Get in Touch')
+@section('title', 'Contact Us | TerraNova Technologies - Get in Touch')
 
 @section('content')
     <!-- Contact Header Banner -->
@@ -125,7 +125,7 @@
                         </div>
                         <div class="w-full h-64 rounded-2xl overflow-hidden border border-cream-200 relative">
                             <iframe
-                                title="Nexora Innovations Office Map"
+                                title="TerraNova Technologies Office Map"
                                 class="w-full h-full border-0"
                                 loading="lazy"
                                 allowfullscreen

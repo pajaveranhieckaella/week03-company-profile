@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'About Us | Nexora Innovations - History, Mission, Vision & Team')
+@section('title', 'About Us | TerraNova Technologies - History, Mission, Vision & Team')
 
 @section('content')
     <!-- Header Banner -->
@@ -14,7 +14,7 @@
                 Architecting the Future of Enterprise Software
             </h1>
             <p class="max-w-2xl mx-auto text-cream-200 text-base sm:text-lg font-light">
-                Discover the story, mission, and passionate engineering minds behind Nexora Innovations.
+                Discover the story, mission, and passionate engineering minds behind TerraNova Technologies.
             </p>
         </div>
     </section>

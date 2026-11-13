@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Services | Nexora Innovations - Comprehensive Digital & Engineering Solutions')
+@section('title', 'Services | TerraNova Technologies - Comprehensive Digital & Engineering Solutions')
 
 @section('content')
     <!-- Services Header Banner -->

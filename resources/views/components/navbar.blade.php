@@ -8,8 +8,8 @@
                         <i class="fa-solid fa-shapes text-xl"></i>
                     </div>
                     <div>
-                        <span class="text-xl font-extrabold text-brown-950 tracking-tight group-hover:text-terracotta-600 transition-colors">Nexora</span>
-                        <span class="text-xs font-semibold tracking-wider uppercase text-terracotta-600 block -mt-1">Innovations</span>
+                        <span class="text-xl font-extrabold text-brown-950 tracking-tight group-hover:text-terracotta-600 transition-colors">TerraNova</span>
+                        <span class="text-xs font-semibold tracking-wider uppercase text-terracotta-600 block -mt-1">Technologies</span>
                     </div>
                 </a>
             </div>

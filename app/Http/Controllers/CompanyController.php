@@ -51,7 +51,7 @@ class CompanyController extends Controller
             [
                 'year' => '2020',
                 'title' => 'Foundation & Inception',
-                'description' => 'Nexora Innovations was founded with a bold vision to modernize enterprise software and empower high-growth startups.',
+                'description' => 'TerraNova Technologies was founded with a bold vision to modernize enterprise software and empower high-growth startups.',
             ],
             [
                 'year' => '2022',
@@ -227,8 +227,8 @@ class CompanyController extends Controller
     {
         $contactDetails = [
             'address' => '123 Innovation Avenue, Cyberzone Park, Taguig City, Metro Manila 1634, Philippines',
-            'email' => 'contact@nexorainnovations.com',
-            'supportEmail' => 'support@nexorainnovations.com',
+            'email' => 'contact@terranovatech.com',
+            'supportEmail' => 'support@terranovatech.com',
             'phone' => '+63 (2) 8876-5432',
             'mobile' => '+63 917 888 9000',
             'hours' => 'Monday - Friday: 8:00 AM - 6:00 PM (PHT)',

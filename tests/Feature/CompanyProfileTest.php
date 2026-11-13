@@ -15,7 +15,7 @@ class CompanyProfileTest extends TestCase
 
         $response->assertStatus(200);
         $response->assertViewIs('pages.home');
-        $response->assertSee('Nexora');
+        $response->assertSee('TerraNova');
         $response->assertSee('Empowering Enterprise Growth');
         $response->assertSee('Explore Our Services');
     }
@@ -63,7 +63,7 @@ class CompanyProfileTest extends TestCase
         $response->assertStatus(200);
         $response->assertViewIs('pages.contact');
         $response->assertSee('Start a Conversation');
-        $response->assertSee('contact@nexorainnovations.com');
+        $response->assertSee('contact@terranovatech.com');
         $response->assertSee('+63 (2) 8876-5432');
         $response->assertSee('Our Headquarters');
     }

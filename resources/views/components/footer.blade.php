@@ -8,8 +8,8 @@
                         <i class="fa-solid fa-shapes text-lg"></i>
                     </div>
                     <div>
-                        <span class="text-xl font-extrabold text-white tracking-tight">Nexora</span>
-                        <span class="text-xs font-semibold tracking-wider uppercase text-terracotta-400 block -mt-1">Innovations</span>
+                        <span class="text-xl font-extrabold text-white tracking-tight">TerraNova</span>
+                        <span class="text-xs font-semibold tracking-wider uppercase text-terracotta-400 block -mt-1">Technologies</span>
                     </div>
                 </a>
                 <p class="text-brown-200 text-sm leading-relaxed max-w-sm">
@@ -73,7 +73,7 @@
                     </li>
                     <li class="flex items-center gap-3">
                         <i class="fa-solid fa-envelope text-terracotta-400"></i>
-                        <a href="mailto:contact@nexorainnovations.com" class="hover:text-cream-100 transition-colors">contact@nexorainnovations.com</a>
+                        <a href="mailto:contact@terranovatech.com" class="hover:text-cream-100 transition-colors">contact@terranovatech.com</a>
                     </li>
                     <li class="flex items-center gap-3">
                         <i class="fa-solid fa-phone text-terracotta-400"></i>
@@ -87,22 +87,22 @@
                     <div class="flex items-center gap-2.5">
                         <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
                            class="w-9 h-9 rounded-xl bg-brown-800 text-cream-200 hover:text-white hover:bg-terracotta-600 flex items-center justify-center transition-all duration-200"
-                           aria-label="Nexora on LinkedIn">
+                           aria-label="TerraNova on LinkedIn">
                             <i class="fa-brands fa-linkedin-in text-sm"></i>
                         </a>
                         <a href="https://github.com" target="_blank" rel="noopener noreferrer"
                            class="w-9 h-9 rounded-xl bg-brown-800 text-cream-200 hover:text-white hover:bg-terracotta-600 flex items-center justify-center transition-all duration-200"
-                           aria-label="Nexora on GitHub">
+                           aria-label="TerraNova on GitHub">
                             <i class="fa-brands fa-github text-sm"></i>
                         </a>
                         <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"
                            class="w-9 h-9 rounded-xl bg-brown-800 text-cream-200 hover:text-white hover:bg-terracotta-600 flex items-center justify-center transition-all duration-200"
-                           aria-label="Nexora on Twitter">
+                           aria-label="TerraNova on Twitter">
                             <i class="fa-brands fa-x-twitter text-sm"></i>
                         </a>
                         <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"
                            class="w-9 h-9 rounded-xl bg-brown-800 text-cream-200 hover:text-white hover:bg-terracotta-600 flex items-center justify-center transition-all duration-200"
-                           aria-label="Nexora on Facebook">
+                           aria-label="TerraNova on Facebook">
                             <i class="fa-brands fa-facebook-f text-sm"></i>
                         </a>
                     </div>
@@ -112,7 +112,7 @@
 
         <!-- Bottom Copyright -->
         <div class="mt-12 pt-8 border-t border-brown-800 flex flex-col sm:flex-row items-center justify-between text-xs text-brown-300 gap-4">
-            <p>&copy; {{ date('Y') }} Nexora Innovations Inc. All rights reserved.</p>
+            <p>&copy; {{ date('Y') }} TerraNova Technologies Inc. All rights reserved.</p>
             <div class="flex items-center gap-6">
                 <span class="hover:text-cream-100 transition-colors cursor-pointer">Privacy Policy</span>
                 <span class="hover:text-cream-100 transition-colors cursor-pointer">Terms of Service</span>

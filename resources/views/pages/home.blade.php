@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Home | Nexora Innovations - Digital Engineering & Solutions Studio')
+@section('title', 'Home | TerraNova Technologies - Digital Engineering & Solutions Studio')
 
 @section('content')
     <!-- Hero Banner Section -->
@@ -16,7 +16,7 @@
                         Empowering Enterprise Growth Through <span class="text-transparent bg-clip-text bg-gradient-to-r from-terracotta-300 via-amber-200 to-terracotta-400">Intelligent Tech</span>
                     </h1>
                     <p class="text-lg sm:text-xl text-cream-200 max-w-2xl font-light leading-relaxed">
-                        Nexora Innovations engineers robust web platforms, high-performance cloud architectures, and user-centric software that scale your business with speed and resilience.
+                        TerraNova Technologies engineers robust web platforms, high-performance cloud architectures, and user-centric software that scale your business with speed and resilience.
                     </p>
                     <div class="flex flex-wrap items-center gap-4 pt-4">
                         <a href="{{ route('services') }}" class="px-7 py-3.5 rounded-xl font-bold text-white bg-terracotta-600 hover:bg-terracotta-500 shadow-lg shadow-terracotta-600/35 transition-all duration-200 hover:-translate-y-0.5 flex items-center gap-2.5">
@@ -106,13 +106,13 @@
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
                 <div class="space-y-6">
                     <div class="inline-flex items-center gap-2 text-terracotta-700 font-bold text-xs uppercase tracking-widest">
-                        <span class="w-6 h-0.5 bg-terracotta-600"></span> About Nexora Innovations
+                        <span class="w-6 h-0.5 bg-terracotta-600"></span> About TerraNova Technologies
                     </div>
                     <h2 class="text-3xl sm:text-4xl font-extrabold text-brown-950 tracking-tight leading-tight">
                         Pioneering Modern Client-Server Solutions with Enterprise Reliability
                     </h2>
                     <p class="text-brown-700 leading-relaxed">
-                        At Nexora Innovations, we believe that world-class software stems from sound architectural principles. Leveraging Laravel’s powerful Model-View-Controller paradigm, we separate business logic, data models, and fluid presentation layers into clean, maintainable systems.
+                        At TerraNova Technologies, we believe that world-class software stems from sound architectural principles. Leveraging Laravel’s powerful Model-View-Controller paradigm, we separate business logic, data models, and fluid presentation layers into clean, maintainable systems.
                     </p>
                     <p class="text-brown-700 leading-relaxed">
                         Whether you need a bespoke cloud-native portal, API integrations, or real-time mobile companions, our dedicated team of senior developers and architects ensures on-time, bug-free, and scalable execution.
@@ -252,7 +252,7 @@
                         Ready to elevate your digital presence?
                     </h2>
                     <p class="text-cream-100 text-sm sm:text-base">
-                        Partner with Nexora Innovations today. Let's discuss your system requirements, architecture goals, and product roadmap.
+                        Partner with TerraNova Technologies today. Let's discuss your system requirements, architecture goals, and product roadmap.
                     </p>
                 </div>
                 <div class="flex-shrink-0 flex flex-wrap gap-4 justify-center">
