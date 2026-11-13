@@ -112,7 +112,7 @@
 
         <!-- Bottom Copyright -->
         <div class="mt-12 pt-8 border-t border-brown-800 flex flex-col sm:flex-row items-center justify-between text-xs text-brown-300 gap-4">
-            <p>&copy; {{ date('Y') }} Nexora Innovations Inc. All rights reserved. Built with Laravel MVC Architecture.</p>
+            <p>&copy; {{ date('Y') }} Nexora Innovations Inc. All rights reserved.</p>
             <div class="flex items-center gap-6">
                 <span class="hover:text-cream-100 transition-colors cursor-pointer">Privacy Policy</span>
                 <span class="hover:text-cream-100 transition-colors cursor-pointer">Terms of Service</span>
