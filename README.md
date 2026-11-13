@@ -5,7 +5,7 @@
 **Course & Year:** ITST 302 – Client-Server Technologies (Week 3)  
 **Project Name:** TerraNova Technologies – Corporate Profile Website  
 **Technology Stack:** PHP 8.5, Laravel 12, Blade Templating Engine, Tailwind CSS  
-**Repository:** [https://github.com/AshleyPajavera/week03-company-profile](https://github.com/AshleyPajavera/week03-company-profile)
+**Repository:** [https://github.com/pajaveranhieckaella/week03-company-profile](https://github.com/pajaveranhieckaella/week03-company-profile)
 
 ---
 

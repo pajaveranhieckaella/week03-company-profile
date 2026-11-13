@@ -19,7 +19,7 @@ I am excited to share my latest web development project: an enterprise-grade Com
 💡 Key Takeaway:
 Through this project, I gained practical insight into Laravel's client-server request lifecycle. Structuring web applications with reusable templates and organized controller logic provides the maintainability and scalability required in modern software engineering.
 
-📂 GitHub Repository: https://github.com/AshleyPajavera/week03-company-profile
+📂 GitHub Repository: https://github.com/pajaveranhieckaella/week03-company-profile
 
 #Laravel #PHP #MVC #Blade #WebDevelopment #SoftwareEngineering #ClientServerTechnologies #ComputerScience #TechInnovation #FullStackDevelopment
 ```
