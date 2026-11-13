@@ -62,7 +62,7 @@ class CompanyProfileTest extends TestCase
         $response->assertStatus(200);
         $response->assertViewIs('pages.contact');
         $response->assertSee('Start a Conversation');
-        $response->assertSee('contact@terranovatech.com');
+        $response->assertSee('contact@terranovatechph.com');
         $response->assertSee('+63 (2) 8876-5432');
         $response->assertSee('Our Headquarters');
     }

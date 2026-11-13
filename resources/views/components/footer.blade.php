@@ -73,7 +73,7 @@
                     </li>
                     <li class="flex items-center gap-3">
                         <i class="fa-solid fa-envelope text-terracotta-400"></i>
-                        <a href="mailto:contact@terranovatech.com" class="hover:text-cream-100 transition-colors">contact@terranovatech.com</a>
+                        <a href="mailto:contact@terranovatechph.com" class="hover:text-cream-100 transition-colors">contact@terranovatechph.com</a>
                     </li>
                     <li class="flex items-center gap-3">
                         <i class="fa-solid fa-phone text-terracotta-400"></i>

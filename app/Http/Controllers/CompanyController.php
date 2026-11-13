@@ -227,8 +227,8 @@ class CompanyController extends Controller
     {
         $contactDetails = [
             'address' => 'Bubukal, Santa Cruz, Laguna, Philippines',
-            'email' => 'contact@terranovatech.com',
-            'supportEmail' => 'support@terranovatech.com',
+            'email' => 'contact@terranovatechph.com',
+            'supportEmail' => 'support@terranovatechph.com',
             'phone' => '+63 (2) 8876-5432',
             'mobile' => '+63 917 888 9000',
             'hours' => 'Monday - Friday: 8:00 AM - 6:00 PM (PHT)',
