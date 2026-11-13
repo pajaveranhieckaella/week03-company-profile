@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" width="100%" height="100%">
+    <defs>
+        <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#241611"/>
+            <stop offset="100%" stop-color="#180E09"/>
+        </linearGradient>
+        <linearGradient id="terracottaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#D97757"/>
+            <stop offset="100%" stop-color="#C86446"/>
+        </linearGradient>
+        <linearGradient id="creamGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#FFFFFF"/>
+            <stop offset="100%" stop-color="#FAF4EE"/>
+        </linearGradient>
+        <linearGradient id="brownGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#463227"/>
+            <stop offset="100%" stop-color="#34231A"/>
+        </linearGradient>
+        <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%" filterUnits="userSpaceOnUse">
+            <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.35"/>
+        </filter>
+        <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+            <path d="M 0 1 L 10 5 L 0 9 z" fill="#D97757"/>
+        </marker>
+        <marker id="arrow-green" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+            <path d="M 0 1 L 10 5 L 0 9 z" fill="#10B981"/>
+        </marker>
+    </defs>
+
+    <!-- Background Canvas -->
+    <rect width="900" height="620" rx="20" fill="url(#bgGradient)"/>
+    <rect x="2" y="2" width="896" height="616" rx="18" fill="none" stroke="#5A4438" stroke-width="1.5"/>
+
+    <!-- Title and Subtitle -->
+    <text x="450" y="48" text-anchor="middle" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="22" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">
+        Laravel MVC Request Lifecycle Architecture
+    </text>
+    <text x="450" y="74" text-anchor="middle" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="13" font-weight="500" fill="#DF9981">
+        TerraNova Technologies — Client-Server Flow Diagram
+    </text>
+
+    <!-- Node 1: Client / Web Browser -->
+    <g transform="translate(100, 110)" filter="url(#shadow)">
+        <rect width="700" height="70" rx="14" fill="url(#creamGrad)" stroke="#C86446" stroke-width="2"/>
+        <circle cx="45" cy="35" r="20" fill="#C86446"/>
+        <text x="45" y="41" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#FFFFFF">🌐</text>
+        <text x="80" y="31" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="700" fill="#241611">1. Client / Web Browser</text>
+        <text x="80" y="51" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#786052">User initiates HTTP GET Request (e.g., https://terranovatech.com/services)</text>
+    </g>
+
+    <!-- Connecting Arrow 1 -->
+    <line x1="450" y1="180" x2="450" y2="215" stroke="#D97757" stroke-width="3" marker-end="url(#arrow)"/>
+    <text x="465" y="202" font-family="monospace" font-size="11" fill="#DF9981">HTTP GET /services</text>
+
+    <!-- Node 2: Laravel Routing (routes/web.php) -->
+    <g transform="translate(100, 220)" filter="url(#shadow)">
+        <rect width="700" height="70" rx="14" fill="url(#brownGrad)" stroke="#DF9981" stroke-width="1.5"/>
+        <circle cx="45" cy="35" r="20" fill="#D97757"/>
+        <text x="45" y="41" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#FFFFFF">🔀</text>
+        <text x="80" y="31" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">2. Route Dispatcher (routes/web.php)</text>
+        <text x="80" y="51" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#E2D1BE">Matches URI and maps request to [CompanyController::class, 'services']</text>
+    </g>
+
+    <!-- Connecting Arrow 2 -->
+    <line x1="450" y1="290" x2="450" y2="325" stroke="#D97757" stroke-width="3" marker-end="url(#arrow)"/>
+    <text x="465" y="312" font-family="monospace" font-size="11" fill="#DF9981">invoke action</text>
+
+    <!-- Node 3: Controller (app/Http/Controllers/CompanyController.php) -->
+    <g transform="translate(100, 330)" filter="url(#shadow)">
+        <rect width="700" height="70" rx="14" fill="url(#terracottaGrad)" stroke="#FFFFFF" stroke-width="1.5"/>
+        <circle cx="45" cy="35" r="20" fill="#241611"/>
+        <text x="45" y="41" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#FFFFFF">⚙️</text>
+        <text x="80" y="31" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">3. Controller Logic (CompanyController.php)</text>
+        <text x="80" y="51" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#FAF4EE">Executes services() method, structures service datasets, and returns view('pages.services')</text>
+    </g>
+
+    <!-- Connecting Arrow 3 -->
+    <line x1="450" y1="400" x2="450" y2="435" stroke="#D97757" stroke-width="3" marker-end="url(#arrow)"/>
+    <text x="465" y="422" font-family="monospace" font-size="11" fill="#DF9981">pass data &amp; render</text>
+
+    <!-- Node 4: Blade Templating Engine (resources/views/pages/services.blade.php) -->
+    <g transform="translate(100, 440)" filter="url(#shadow)">
+        <rect width="700" height="70" rx="14" fill="url(#creamGrad)" stroke="#C86446" stroke-width="2"/>
+        <circle cx="45" cy="35" r="20" fill="#C86446"/>
+        <text x="45" y="41" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#FFFFFF">🎨</text>
+        <text x="80" y="31" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="700" fill="#241611">4. Blade View Rendering (Blade Templating Engine)</text>
+        <text x="80" y="51" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#786052">Compiles @extends('layouts.app'), @include('navbar'), and iterates @foreach services</text>
+    </g>
+
+    <!-- Return Loop: Arrow returning back to Client -->
+    <path d="M 800 475 H 840 V 145 H 805" fill="none" stroke="#10B981" stroke-width="3" stroke-dasharray="6,4" marker-end="url(#arrow-green)"/>
+    <text x="845" y="310" text-anchor="middle" transform="rotate(90, 845, 310)" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#10B981">
+        5. Compiled HTML / CSS Response Sent to Browser
+    </text>
+
+    <!-- Bottom Footer Notes -->
+    <rect x="100" y="540" width="700" height="45" rx="10" fill="#180E09" stroke="#463227" stroke-width="1"/>
+    <text x="450" y="567" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#DF9981">
+        ITST 302: Client-Server Technologies — Separation of Concerns: Model • View • Controller
+    </text>
+</svg>
+
