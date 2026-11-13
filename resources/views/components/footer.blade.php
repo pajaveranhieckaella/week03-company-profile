@@ -69,7 +69,7 @@
                 <ul class="space-y-3 text-sm text-brown-200">
                     <li class="flex items-start gap-3">
                         <i class="fa-solid fa-location-dot text-terracotta-400 mt-1"></i>
-                        <span>Cyberzone Park, Taguig City, Metro Manila, Philippines</span>
+                        <span>Bubukal, Santa Cruz, Laguna, Philippines</span>
                     </li>
                     <li class="flex items-center gap-3">
                         <i class="fa-solid fa-envelope text-terracotta-400"></i>

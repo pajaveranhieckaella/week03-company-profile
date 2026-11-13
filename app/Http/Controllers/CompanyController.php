@@ -226,7 +226,7 @@ class CompanyController extends Controller
     public function contact(): View
     {
         $contactDetails = [
-            'address' => '123 Innovation Avenue, Cyberzone Park, Taguig City, Metro Manila 1634, Philippines',
+            'address' => 'Bubukal, Santa Cruz, Laguna, Philippines',
             'email' => 'contact@terranovatech.com',
             'supportEmail' => 'support@terranovatech.com',
             'phone' => '+63 (2) 8876-5432',

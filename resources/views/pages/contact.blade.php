@@ -30,7 +30,7 @@
                             <span class="text-xs font-bold uppercase tracking-wider text-terracotta-700">Company Information</span>
                             <h3 class="text-2xl font-extrabold text-brown-950 mt-1">Get In Touch</h3>
                             <p class="text-brown-600 text-sm mt-2 leading-relaxed">
-                                Reach out via email, phone, or visit our primary development campus located in Taguig City.
+                                Reach out via email, phone, or visit our office located in Santa Cruz, Laguna.
                             </p>
                         </div>
 
@@ -121,7 +121,7 @@
                             <span class="text-xs font-bold text-brown-900 uppercase tracking-wide">
                                 <i class="fa-solid fa-map-pin text-terracotta-600 mr-1.5"></i> Location Map
                             </span>
-                            <span class="text-[11px] text-brown-400">Bonifacio Global City / Taguig</span>
+                            <span class="text-[11px] text-brown-500 font-medium">Bubukal, Santa Cruz, Laguna</span>
                         </div>
                         <div class="w-full h-64 rounded-2xl overflow-hidden border border-cream-200 relative">
                             <iframe
@@ -130,7 +130,7 @@
                                 loading="lazy"
                                 allowfullscreen
                                 referrerpolicy="no-referrer-when-downgrade"
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.8037375677843!2d121.04825637588383!3d14.553215878235207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c8f25b39bfad%3A0x6b107b5871bfef12!2sBonifacio%20Global%20City%2C%20Taguig%2C%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1700000000000!5m2!1sen!2sph">
+                                src="https://maps.google.com/maps?q={{ urlencode($contactDetails['address']) }}&t=&z=15&ie=UTF8&iwloc=&output=embed">
                             </iframe>
                         </div>
                     </div>
