@@ -33,7 +33,6 @@ class CompanyProfileTest extends TestCase
         $response->assertSee('Our Vision');
         $response->assertSee('Our Core Values');
         $response->assertSee('Company History');
-        $response->assertSee('Meet Our Leadership Team');
     }
 
     /**

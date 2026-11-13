@@ -118,44 +118,4 @@
         </div>
     </section>
 
-    <!-- Team Introduction Section -->
-    <section class="py-20 bg-cream-100 border-t border-cream-300">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center max-w-3xl mx-auto space-y-3 mb-16">
-                <span class="text-xs font-bold uppercase tracking-wider text-terracotta-700 bg-terracotta-100 px-3.5 py-1.5 rounded-full border border-terracotta-200">
-                    Leadership & Talent
-                </span>
-                <h2 class="text-3xl sm:text-4xl font-extrabold text-brown-950 tracking-tight">
-                    Meet Our Leadership Team
-                </h2>
-                <p class="text-brown-700 text-base">
-                    Experienced technology strategists, engineers, and designers committed to delivering excellence.
-                </p>
-            </div>
-
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-                @foreach ($team as $member)
-                    <div class="bg-white rounded-3xl overflow-hidden border border-cream-300 shadow-sm hover:shadow-xl transition-all duration-300 group">
-                        <div class="aspect-square w-full overflow-hidden bg-cream-200">
-                            <img src="{{ $member['avatar'] }}" alt="{{ $member['name'] }}"
-                                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
-                        </div>
-                        <div class="p-6 space-y-2">
-                            <h4 class="text-lg font-bold text-brown-900">{{ $member['name'] }}</h4>
-                            <div class="text-xs font-semibold text-terracotta-700 uppercase tracking-wide">{{ $member['role'] }}</div>
-                            <p class="text-brown-500 text-xs leading-relaxed pt-1">{{ $member['bio'] }}</p>
-                            <div class="pt-3 flex items-center gap-3 border-t border-cream-200 mt-3">
-                                <a href="{{ $member['linkedin'] }}" target="_blank" class="text-brown-400 hover:text-terracotta-600 transition-colors" aria-label="{{ $member['name'] }} LinkedIn">
-                                    <i class="fa-brands fa-linkedin text-sm"></i>
-                                </a>
-                                <a href="{{ $member['github'] }}" target="_blank" class="text-brown-400 hover:text-brown-800 transition-colors" aria-label="{{ $member['name'] }} GitHub">
-                                    <i class="fa-brands fa-github text-sm"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                @endforeach
-            </div>
-        </div>
-    </section>
 @endsection
