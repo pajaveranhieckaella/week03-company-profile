@@ -253,8 +253,7 @@ week03-company-profile/
 ├── bootstrap/
 ├── config/
 ├── documentation/
-│   ├── architecture-diagram.svg
-│   └── linkedin-post.md
+│   └── architecture-diagram.svg
 ├── public/
 │   ├── index.php
 │   └── favicon.ico
