@@ -99,7 +99,8 @@ Blade View Engine (resources/views)
 HTML Response to Client Browser
 ```
 
-An illustrated vector diagram is available in [`documentation/architecture-diagram.svg`](documentation/architecture-diagram.svg).
+![MVC Architecture Request Flow](documentation/architecture-diagram.svg)
+*Figure 4.1: End-to-end Laravel MVC Client-Server Request Lifecycle Diagram.*
 
 ---
 
